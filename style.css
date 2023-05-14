@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 ;
+}
+
+.top-container {
+    background-color: #1F2937;
+    height: 25rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15%;
+    padding-top: 1%;
+}
+
+
+.presentation-text h3{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    padding-right: 20%;
+}
+
+.presentation-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 20%;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+}
+
+.links {
+
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.links a{
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: .55s all;
+}
+
+.links a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.presentation-text {
+    flex: 1;
+    /* border: 4px solid black; */
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 20px;
+
+}
+
+.presentation-img {
+    flex: 1;
+    /* border: 4px solid black; */
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    object-fit: cover;
+}
+
+img {
+
+    border: 1.5px solid #F9FAF8;
+    height: 75%;
+    width: 100%;
+}
+
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25rem;
+}
+
+.presentation-text {
+    flex: 1;
+}
+
+.actual-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    /* border: 4px solid black; */
+    height: 25rem;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 2%;
+}
+
+.boxes {
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    max-height: 70%;;
+    align-items: center;
+}
+
+.boxes img{
+    border: 3px solid #3882F6;
+}
+
