@@ -1,1 +1,1 @@
-# Preview: https://lucasknutr.github.io/simple-form
+# Preview: https://lucasknutr.github.io/Simple-Form
