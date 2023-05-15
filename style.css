@@ -125,6 +125,7 @@ img {
 .actual-container {
     display: flex;
     flex-direction: column;
+    background: #1F2937;
 }
 
 .main-container {
