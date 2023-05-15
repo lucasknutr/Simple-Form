@@ -1,4 +1,4 @@
-# Preview: https://lucasknutr.github.io/Simple-Form
+# Preview: https://lucasknutr.github.io/odin-landing-page
 
 # About it
 This is my first serious project since I started learning web development.
