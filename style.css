@@ -42,6 +42,14 @@ body {
     border-radius: 10px;
     border: none;
     font-weight: bold;
+    transition: .55s all;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: yellow;
+    color: black;
+    cursor: pointer;
 }
 
 .navbar {
@@ -106,8 +114,8 @@ img {
 }
 
 img {
-
-    border: 1.5px solid #F9FAF8;
+    border-radius: 50px;
+    border: px solid #F9FAF8;
     height: 75%;
     width: 100%;
 }
@@ -218,8 +226,14 @@ img {
     font-weight: bold;
     align-self: center;
     flex: 1;
+    transition: .55s all;
+}
 
-
+.button-2:hover {
+    transform: scale(1.1);
+    background: yellow;
+    color: black;
+    cursor: pointer;
 }
 
 .footer {
